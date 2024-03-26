@@ -1,0 +1,275 @@
+.one
+{
+    background:     linear-gradient(to bottom, rgba(56, 55, 55, 0.644), rgba(109, 108, 109, 0.644)),
+        url('../img/web-designer-near.jpg');
+/* background-image:linear-gradient(rgb(85, 83, 83) rgb(85, 83, 83 ), transparent) ,  url("../img/web-designer-near.jpg"); */
+background-repeat: no-repeat;
+height: 900px;
+
+}
+.main{
+    font-family: 'Frank Ruhl Libre';
+    color: aliceblue;
+   font-weight: 300px;
+   padding-top: 111px; 
+   font-size: 90px;
+   margin-left: 150px;
+}
+.data
+{
+    font-family: 'Frank Ruhl Libre';
+    color: aliceblue;
+    margin-left: 150px;
+    font-size:large;
+    font-weight: bold;
+}
+.but{
+    background-color:black;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 15px;
+    margin-left: 150px;
+}
+.img
+{
+    margin-left: 150px;
+    margin-top: 35px;
+    /* margin-top: 75px; */
+}
+.header
+{
+    display: flex;
+    justify-content:left;
+    position: absolute;
+}
+.sp
+{
+    margin-top: 40px;
+    color: burlywood;
+    padding-left: 12px;
+    font-size: 20px;
+}
+.second
+{
+    display: flex;
+    justify-content:space-between;
+}
+.para
+{
+    padding-top: -4px;
+    padding-left: 200px;
+    padding-right: 210px;
+    font-family: 'Frank Ruhl Libre';
+    font-size:larger;
+    text-align:left;
+    line-height: 1.5;
+   
+    
+    
+   
+}
+.hea{
+   
+    margin-left: 211px;
+    margin-top: 139px;
+    font-family: 'Frank Ruhl Libre';
+    font-size:50px;
+    font-weight: 50px;
+    
+}
+.penkty
+{
+    padding-top: 50px;
+    height: 500px;
+}
+.but1{
+    background-color:black;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 20px;
+    width: 248px;
+    margin-left: 205px
+}
+
+.anju
+{
+    color: white;
+    font-family: 'Frank Ruhl Libre';
+   text-align: center;
+
+}
+.annu
+{
+    color: white;
+    font-family: 'Frank Ruhl Libre';
+   text-align: center;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    
+    
+    background-image: linear-gradient(to bottom, rgba(56, 55, 55, 0.644), rgba(109, 108, 109, 0.644)),url("../img/yy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 55px;
+
+} 
+.boost1{
+  color:white;
+  border: 2px solid rgb(25, 26, 25);
+    font-family: 'Frank Ruhl Libre';
+   
+    padding: 20px;
+   
+    
+}
+
+  
+
+  .jj
+  {
+    display: flex;
+    gap: 30px;
+    
+    width: 250;
+    padding: 20px;
+    margin-top: -88px;
+    line-height: 1.5;
+  }
+  .contact
+
+  {
+    font-family: 'Frank Ruhl Libre';
+    font-size: large;
+  }
+  .h2
+  {
+    font-family: 'Frank Ruhl Libre';
+  }
+  .footer{
+    margin-left: 126px;
+    margin-top: 80px;
+  }
+  .space
+  {
+    padding-left: 50px;
+  }
+  .fooo
+  {
+    padding-left: 280px;
+  }
+
+
+
+
+  @media (max-width: 480px) 
+    {
+        body {
+            margin: 0px;
+            padding: 0px;
+
+        }  
+.main{
+    margin-left: 57px;
+    font-size: xxx-large;
+}
+.but{
+    margin-left: 122px;
+    margin-top: 25px;
+}
+
+ .data{
+    margin-left: 49px;
+} 
+.one{
+    height: 506px;;
+}
+.header{
+    margin-left: -75px
+} 
+
+.hea{
+    margin-left: 10px;
+    margin-top: 61px;
+}
+.para{
+    margin-left: -52px;
+    padding: 92px;
+    margin-top: -122px;
+}
+.second
+{
+    flex-direction: column;
+} 
+.but1
+{
+    margin-left: 65px;
+    margin-top: -72px;
+}
+.penkty
+{
+    padding-top: 86px !important;
+    height: 607px !important;
+    width: 100%;
+    margin: 0px;
+}
+
+.jj{
+    flex-direction: column;
+}
+.boost1{
+    margin-left: 77px;
+    margin-right: 58px;
+}
+.boost2{
+    margin-left: 77px;
+    margin-right: 58px;
+    margin-top: -56px;
+}
+.boost3{
+    margin-left: 77px;
+    margin-right: 58px;
+    margin-top: -56px;
+}
+}
+  
+
+@media (min-width: 768px) 
+{
+    .para
+    {
+        padding: 38px;
+        text-align: left;
+    }
+    .hea
+    {
+    padding-top: -58px;
+    margin-left: 61px;
+    }
+   .one
+   {
+   height: 710px;
+   }
+   .but1{
+    margin-left: 59px
+   }
+   .penkty{
+    height: 502px;
+    margin-top: 104px;
+   }
+   .second
+   {
+    margin-top: -65px;
+   }
+   .jj{
+    margin-top: 10px;}
+    .data{
+        font-size: x-large;}
+        .footer{
+            margin-left: 290px;
+        }
+}
